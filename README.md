@@ -19,6 +19,8 @@ During my Java Full Stack training, I wanted to build something that reflects re
 | API Testing | Postman |
 
 ## Project Structure
+
+```
 src/main/java/com/issuetracker/
 ├── controller/
 │   ├── AuthController.java      ← Register & Login
@@ -32,9 +34,10 @@ src/main/java/com/issuetracker/
 │   ├── Issue.java               ← Issue entity
 │   └── User.java                ← User entity
 └── security/
-├── JwtUtil.java             ← Token generation
-├── JwtFilter.java           ← Token validation
-└── SecurityConfig.java      ← Security rules
+    ├── JwtUtil.java             ← Token generation
+    ├── JwtFilter.java           ← Token validation
+    └── SecurityConfig.java      ← Security rules
+```
 ## Features
 
 - User Registration with encrypted password (BCrypt)
